@@ -1,0 +1,55 @@
+{
+    "usuarios": [
+      {
+        "name": "Peter Jason Quil",
+        "email": "peter.quil@alura.com.br",
+        "senha": "Senha12345"
+      },
+      {
+        "name": "Gamora Zen Whoberi",
+        "email": "gamora.whoberi@gmail.com",
+        "senha": "SenhaForte2024"
+      },
+      {
+        "name": "Tony Stark",
+        "email": "tony.stark@yahoo.com",
+        "senha": "IronMan3000"
+      },
+      {
+        "name": "Natasha Romanoff",
+        "email": "natasha.r@outlook.com",
+        "senha": "BlackWidow#007"
+      },
+      {
+        "name": "Steve Rogers",
+        "email": "steve.rogers@shield.inf",
+        "senha": "Captain@America1"
+      },
+      {
+        "name": "Bruce Banner",
+        "email": "bruce.banner@hulkmail.com",
+        "senha": "HulkSmash123"
+      },
+      {
+        "name": "Wanda Maximoff",
+        "email": "wanda.maximoff@starkindustries.inf",
+        "senha": "ScarletWitch!2025"
+      },
+      {
+        "name": "Stephen Strange",
+        "email": "stephen.strange@kamar-taj.com",
+        "senha": "DoctorStrange$23"
+      },
+      {
+        "name": "Carol Danvers",
+        "email": "carol.danvers@marvelheroes.com",
+        "senha": "CaptainMarvel456"
+      },
+      {
+        "name": "Scott Lang",
+        "email": "scott.lang@avengers.inf",
+        "senha": "AntManPass789"
+      }
+    ]
+  }
+  
