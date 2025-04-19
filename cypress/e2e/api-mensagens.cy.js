@@ -1,10 +1,10 @@
 describe('Api Adopet', () => {
-    const authorization = `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMTY0M2NkNi03MTEyLTQxNWItOTVkMi0wNzkwNGIwZDFhMWMiLCJhZG9wdGVyTmFtZSI6IkFuYSBkZSBKZXN1cyIsImlhdCI6MTc0NTAyMjY0MiwiZXhwIjoxNzQ1MjgxODQyfQ.xnEJLZiwtSaEFx6ptzXcYqVRElRlvk604GST5ODXtIs`
+    const authorization = `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMTY0M2NkNi03MTEyLTQxNWItOTVkMi0wNzkwNGIwZDFhMWMiLCJhZG9wdGVyTmFtZSI6IkFuYSBkZSBKZXN1cyIsImlhdCI6MTc0NTAyNTEyMiwiZXhwIjoxNzQ1Mjg0MzIyfQ.bn2map9OIEKZaICYAqzv9tngAIxFea86N1R34wBeG_8`
 
     it('Mensagens da API', () => {
         cy.request({
             method: 'GET',
-            url: 'https://adopet-frontend-cypress.vercel.app/static/media/message-hover.585ef151de5fe106e8eb.svg',
+            url: 'https://adopet-api-i8qu.onrender.com/mensagem/11643cd6-7112-415b-95d2-07904b0d1a1c',
             headers: {authorization}
         }).then((res) => {
             expect(res.status).to.be.equal(200)
