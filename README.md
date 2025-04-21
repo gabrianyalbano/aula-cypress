@@ -17,6 +17,19 @@ Automatizar os testes de **cadastro de usuário** e **login** no sistema, garant
 - Validação de mensagens de sucesso e erro
 - Testes utilizando `commands.js` para otimizar e reutilizar comandos customizados
 
+## 🔒 Proteção de Dados Sensíveis
+
+- Utilização de fixtures para armazenar dados de teste (como usuários e senhas) de forma organizada.
+- Criação do arquivo cypress.env.json para proteger informações sensíveis, como tokens de autenticação e credenciais, mantendo o ambiente de testes seguro.
+
+## 🧹 Boas Práticas para Testes
+
+Aplicação de técnicas para evitar flaky tests (testes instáveis), como:
+
+- Uso correto de comandos cy.get(), cy.contains() e cy.intercept() para aguardar elementos e requisições.
+- Garantir que os elementos estejam visíveis e prontos antes de interagir.
+- Evitar uso excessivo de cy.wait() fixo, preferindo esperar por eventos reais.
+
 ## 📹 Gravação dos Testes
 Durante a execução dos testes, o Cypress foi configurado para:
 - **Gravar a tela** do navegador
